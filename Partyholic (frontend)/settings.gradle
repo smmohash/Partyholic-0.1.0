@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "53 attempt to integrate"
+rootProject.name = "Partyholic 0.1.0"

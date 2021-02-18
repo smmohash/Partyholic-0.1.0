@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/53_attempt_to_integrate.iml" filepath="$PROJECT_DIR$/.idea/modules/53_attempt_to_integrate.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/53_attempt_to_integrate.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/53_attempt_to_integrate.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Partyholic_0.1.0.iml" filepath="$PROJECT_DIR$/.idea/modules/Partyholic_0.1.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Partyholic_0.1.0.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Partyholic_0.1.0.app.iml" />
     </modules>
   </component>
 </project>

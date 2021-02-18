@@ -6,39 +6,39 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml
+8-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml
+9-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml
 10
 11    <!-- for camera -->
 12    <uses-feature
-12-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:6:5-8:35
+12-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:6:5-8:35
 13        android:name="android.hardware.camera"
-13-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:7:9-47
+13-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:7:9-47
 14        android:required="true" />
-14-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:8:9-32
+14-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:8:9-32
 15
 16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-16-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:10:5-81
-16-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:10:22-78
+16-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:10:5-81
+16-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:10:22-78
 17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-17-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:11:5-79
-17-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:11:22-76
+17-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:11:5-79
+17-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:11:22-76
 18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-18-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:12:5-80
-18-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:12:22-77
+18-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:12:5-80
+18-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:12:22-77
 19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-19-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:13:5-81
-19-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:13:22-78
+19-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:13:5-81
+19-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:13:22-78
 20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-20-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:10:5-81
-20-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:10:22-78
+20-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:10:5-81
+20-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:10:22-78
 21    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-21-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:11:5-79
-21-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:11:22-76
+21-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:11:5-79
+21-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:11:22-76
 22    <uses-permission android:name="android.permission.INTERNET" />
-22-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:16:5-67
-22-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:16:22-64
+22-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:16:5-67
+22-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:16:22-64
 23
 24    <!-- Include required permissions for Google Maps API to run. -->
 25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -53,93 +53,92 @@
 29-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\llllo\.gradle\caches\transforms-2\files-2.1\a998b89aa33dba7d2af0bd1f1f02715b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
 30
 31    <application
-31-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:18:5-55:19
+31-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:18:5-55:19
 32        android:allowBackup="true"
-32-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:19:9-35
+32-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:19:9-35
 33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 33-->[androidx.core:core:1.3.1] C:\Users\llllo\.gradle\caches\transforms-2\files-2.1\c560b8721f05ca12656603dd382025ab\core-1.3.1\AndroidManifest.xml:24:18-86
 34        android:debuggable="true"
 35        android:icon="@drawable/logo"
-35-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:20:9-38
+35-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:20:9-38
 36        android:label="@string/app_name"
-36-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:21:9-41
+36-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:21:9-41
 37        android:roundIcon="@drawable/circle_cropped"
-37-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:22:9-53
+37-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:22:9-53
 38        android:supportsRtl="true"
-38-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:23:9-35
-39        android:testOnly="true"
-40        android:theme="@style/Theme.partyholicTheme" >
-40-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:24:9-53
-41
-42        <!-- This is the main activity class (Java) declared here as "LAUNCHER" which means that it is -->
-43        <!-- the first thing to load when the app starts. This declaration is important because without -->
-44        <!-- it, the app won't even start. In case we had multiple classes, we would have also declared -->
-45        <!-- them, but not as a "LAUNCHER", but rather as "DEFAULT". -->
-46        <activity android:name="p.p.MainActivity" >
-46-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:29:9-35:20
-46-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:29:19-47
-47            <intent-filter>
-47-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:30:13-34:29
-48                <action android:name="android.intent.action.MAIN" />
-48-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:31:17-69
-48-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:31:25-66
-49                <!--  -->
-50                <category android:name="android.intent.category.LAUNCHER" />
-50-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:33:17-77
-50-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:33:27-74
-51            </intent-filter>
-52        </activity>
-53        <!-- Based on Google's suggestion, as this is the new way of making a directory -->
-54        <!-- # -->
-55        <provider
-55-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:38:9-48:20
-56            android:name="androidx.core.content.FileProvider"
-56-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:39:13-62
-57            android:authorities="com.example.android.fileprovider"
-57-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:40:13-67
-58            android:exported="false"
-58-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:41:13-37
-59            android:grantUriPermissions="true" >
-59-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:42:13-47
-60
-61            <!-- if using Android Studio, hold Ctrl and left click the file name to see where it is -->
-62            <!-- located -->
-63            <meta-data
-63-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:45:13-47:54
-64                android:name="android.support.FILE_PROVIDER_PATHS"
-64-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:46:17-67
-65                android:resource="@xml/file_paths" />
-65-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:47:17-51
-66        </provider>
-67
-68        <meta-data
-69            android:name="com.google.android.geo.API_KEY"
-69-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:51:13-58
-70            android:value="AIzaSyBk51EdhyfO7V4XLJblPrmpeUaBnO-CPDM" />
-70-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:52:13-42
-71        <!-- https://stackoverflow.com/questions/6424853/error-inflating-class-fragment: -->
-72        <meta-data
-72-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:54:9-68
-73            android:name="com.google.android.gms.version"
-73-->D:\1\uni\8\prax\repo\Partyholic\app\src\main\AndroidManifest.xml:54:20-65
-74            android:value="@integer/google_play_services_version" />
-74-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\llllo\.gradle\caches\transforms-2\files-2.1\4da416a319957518ac6f573eb1464f67\jetified-play-services-basement-17.3.0\AndroidManifest.xml:25:13-66
-75        <!-- Needs to be explicitly declared on P+ -->
-76        <uses-library
-76-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\llllo\.gradle\caches\transforms-2\files-2.1\a998b89aa33dba7d2af0bd1f1f02715b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
-77            android:name="org.apache.http.legacy"
-77-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\llllo\.gradle\caches\transforms-2\files-2.1\a998b89aa33dba7d2af0bd1f1f02715b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
-78            android:required="false" />
-78-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\llllo\.gradle\caches\transforms-2\files-2.1\a998b89aa33dba7d2af0bd1f1f02715b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
-79
-80        <activity
-80-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\llllo\.gradle\caches\transforms-2\files-2.1\0a776bc61390d87885643b31a80a578e\jetified-play-services-base-17.3.0\AndroidManifest.xml:23:9-26:75
-81            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-81-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\llllo\.gradle\caches\transforms-2\files-2.1\0a776bc61390d87885643b31a80a578e\jetified-play-services-base-17.3.0\AndroidManifest.xml:24:13-79
-82            android:exported="false"
-82-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\llllo\.gradle\caches\transforms-2\files-2.1\0a776bc61390d87885643b31a80a578e\jetified-play-services-base-17.3.0\AndroidManifest.xml:25:13-37
-83            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-83-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\llllo\.gradle\caches\transforms-2\files-2.1\0a776bc61390d87885643b31a80a578e\jetified-play-services-base-17.3.0\AndroidManifest.xml:26:13-72
-84    </application>
-85
-86</manifest>
+38-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:23:9-35
+39        android:theme="@style/Theme.partyholicTheme" >
+39-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:24:9-53
+40
+41        <!-- This is the main activity class (Java) declared here as "LAUNCHER" which means that it is -->
+42        <!-- the first thing to load when the app starts. This declaration is important because without -->
+43        <!-- it, the app won't even start. In case we had multiple classes, we would have also declared -->
+44        <!-- them, but not as a "LAUNCHER", but rather as "DEFAULT". -->
+45        <activity android:name="p.p.MainActivity" >
+45-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:29:9-35:20
+45-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:29:19-47
+46            <intent-filter>
+46-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:30:13-34:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:31:17-69
+47-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:31:25-66
+48                <!--  -->
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:33:17-77
+49-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:33:27-74
+50            </intent-filter>
+51        </activity>
+52        <!-- Based on Google's suggestion, as this is the new way of making a directory -->
+53        <!-- # -->
+54        <provider
+54-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:38:9-48:20
+55            android:name="androidx.core.content.FileProvider"
+55-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:39:13-62
+56            android:authorities="com.example.android.fileprovider"
+56-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:40:13-67
+57            android:exported="false"
+57-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:41:13-37
+58            android:grantUriPermissions="true" >
+58-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:42:13-47
+59
+60            <!-- if using Android Studio, hold Ctrl and left click the file name to see where it is -->
+61            <!-- located -->
+62            <meta-data
+62-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:45:13-47:54
+63                android:name="android.support.FILE_PROVIDER_PATHS"
+63-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:46:17-67
+64                android:resource="@xml/file_paths" />
+64-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:47:17-51
+65        </provider>
+66
+67        <meta-data
+68            android:name="com.google.android.geo.API_KEY"
+68-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:51:13-58
+69            android:value="AIzaSyBk51EdhyfO7V4XLJblPrmpeUaBnO-CPDM" />
+69-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:52:13-42
+70        <!-- https://stackoverflow.com/questions/6424853/error-inflating-class-fragment: -->
+71        <meta-data
+71-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:54:9-68
+72            android:name="com.google.android.gms.version"
+72-->D:\1\uni\8\prax\repo\Partyholic (frontend)\app\src\main\AndroidManifest.xml:54:20-65
+73            android:value="@integer/google_play_services_version" />
+73-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\llllo\.gradle\caches\transforms-2\files-2.1\4da416a319957518ac6f573eb1464f67\jetified-play-services-basement-17.3.0\AndroidManifest.xml:25:13-66
+74        <!-- Needs to be explicitly declared on P+ -->
+75        <uses-library
+75-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\llllo\.gradle\caches\transforms-2\files-2.1\a998b89aa33dba7d2af0bd1f1f02715b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+76            android:name="org.apache.http.legacy"
+76-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\llllo\.gradle\caches\transforms-2\files-2.1\a998b89aa33dba7d2af0bd1f1f02715b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+77            android:required="false" />
+77-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\llllo\.gradle\caches\transforms-2\files-2.1\a998b89aa33dba7d2af0bd1f1f02715b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+78
+79        <activity
+79-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\llllo\.gradle\caches\transforms-2\files-2.1\0a776bc61390d87885643b31a80a578e\jetified-play-services-base-17.3.0\AndroidManifest.xml:23:9-26:75
+80            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+80-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\llllo\.gradle\caches\transforms-2\files-2.1\0a776bc61390d87885643b31a80a578e\jetified-play-services-base-17.3.0\AndroidManifest.xml:24:13-79
+81            android:exported="false"
+81-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\llllo\.gradle\caches\transforms-2\files-2.1\0a776bc61390d87885643b31a80a578e\jetified-play-services-base-17.3.0\AndroidManifest.xml:25:13-37
+82            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+82-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\llllo\.gradle\caches\transforms-2\files-2.1\0a776bc61390d87885643b31a80a578e\jetified-play-services-base-17.3.0\AndroidManifest.xml:26:13-72
+83    </application>
+84
+85</manifest>

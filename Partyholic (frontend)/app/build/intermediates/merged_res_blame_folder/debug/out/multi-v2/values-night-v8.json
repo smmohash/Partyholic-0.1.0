@@ -1,27 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\1\\uni\\8\\prax\\repo\\Partyholic\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "D:\\1\\uni\\8\\prax\\repo\\Partyholic (frontend)\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
-                {
-                    "source": "D:\\1\\uni\\8\\prax\\repo\\Partyholic\\app\\src\\main\\res\\values-night\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "102",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "825"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "809"
-                    }
-                },
                 {
                     "source": "C:\\Users\\llllo\\.gradle\\caches\\transforms-2\\files-2.1\\c63d4a666c0a1ba98c2e2f24b9638d9e\\material-1.2.1\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
@@ -37,6 +18,25 @@
                         "startOffsets": "1446,1534,1658,1760,1862,1978,2080,2194,2322,2438,2560,2696,2816,2950,3070,3182,3397,3535,3659,3789,3911,4049,4165",
                         "endColumns": "87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,137,123,129,121,137,115,119",
                         "endOffsets": "1529,1653,1755,1857,1973,2075,2189,2317,2433,2555,2691,2811,2945,3065,3177,3303,3530,3654,3784,3906,4044,4160,4280"
+                    }
+                },
+                {
+                    "source": "D:\\1\\uni\\8\\prax\\repo\\Partyholic (frontend)\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "825"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "809"
                     }
                 },
                 {

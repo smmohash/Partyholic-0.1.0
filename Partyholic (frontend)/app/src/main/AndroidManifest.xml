@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="p.p">
+
+    <!--    for camera-->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/circle_cropped"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.partyholicTheme">
+        <!--        This is the main activity class (Java) declared here as "LAUNCHER" which means that it is -->
+        <!--        the first thing to load when the app starts. This declaration is important because without -->
+        <!--        it, the app won't even start. In case we had multiple classes, we would have also declared-->
+        <!--        them, but not as a "LAUNCHER", but rather as "DEFAULT".-->
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <!---->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--        Based on Google's suggestion, as this is the new way of making a directory-->
+        <!--        #-->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <!--                if using Android Studio, hold Ctrl and left click the file name to see where it is -->
+            <!--                    located -->
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${mapsApiKey}" />
+        <!--            https://stackoverflow.com/questions/6424853/error-inflating-class-fragment: -->
+        <meta-data android:name="com.google.android.gms.version" />
+    </application>
+
+</manifest>

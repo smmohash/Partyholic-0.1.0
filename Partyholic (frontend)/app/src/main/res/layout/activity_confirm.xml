@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#5E17B5"
+        android:weightSum="100">
+
+        <!--warning user: "this might take some time"............................................-->
+        <include layout="@layout/space_horizontal"/>
+        <TextView
+            android:layout_weight="15"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:id="@+id/topText"
+            android:text="If you send the image, it takes some time to process it."
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:textSize="21sp"
+            android:autoSizeTextType="uniform"
+            android:gravity="center_horizontal" />
+
+        <!--....chosen/captured image............................................................-->
+        <include layout="@layout/space_horizontal"/>
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="61"
+            android:contentDescription="chosen/captured image"
+            app:srcCompat="@drawable/logo" />
+
+        <!--....dialogue: yes or no..............................................................-->
+        <include layout="@layout/space_horizontal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:text="are you sure you want to use this image?"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:textSize="21sp"
+            android:gravity="center_horizontal"
+            android:autoSizeTextType="uniform"/>
+
+        <!--....no/yes buttons ..................................................................-->
+        <include layout="@layout/space_horizontal"/>
+        <LinearLayout
+            android:weightSum="103"
+            android:layout_weight="10"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal">
+            <include layout="@layout/space_vertical"/>
+            <Button
+                android:layout_width="0dp"
+                android:id="@+id/button_yes"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="yes"
+                android:onClick="onClickYes"
+                app:backgroundTint="#449748"
+                app:icon="@android:drawable/ic_menu_send"
+                />
+            <include layout="@layout/space_vertical"/>
+            <Button
+                android:layout_width="0dp"
+                android:id="@+id/button_no"
+                android:onClick="onClickNo"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="no"
+                app:backgroundTint="#F44336"
+                app:icon="@android:drawable/ic_delete"/>
+            <include layout="@layout/space_vertical"/>
+        </LinearLayout>
+        <include layout="@layout/space_horizontal"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

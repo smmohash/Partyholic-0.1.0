@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#5E17B5"
+        android:orientation="vertical"
+        android:weightSum="600">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="150" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="200"
+            android:background="@color/black"
+            android:gravity="center_horizontal"
+            android:autoSizeTextType="uniform"
+            android:textAlignment="center"
+            android:text="Sorry! Either the quality of your image is not good enough, or no address/time/date was found in the image, or the address does not exist! \n Try again"
+            android:textColor="@color/white"></TextView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="190" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="60"
+            android:weightSum="50">
+
+            <include layout="@layout/space_vertical" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="48"
+                android:textSize="8dp"
+                android:textColor="@color/black"
+                android:onClick="onClickNo"
+                android:text="back"
+                app:backgroundTint="#FF6D00"
+                android:autoSizeTextType="uniform"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"
+                app:icon="@android:drawable/ic_menu_revert" />
+
+            <include layout="@layout/space_vertical" />
+        </LinearLayout>
+
+        <include layout="@layout/space_horizontal" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

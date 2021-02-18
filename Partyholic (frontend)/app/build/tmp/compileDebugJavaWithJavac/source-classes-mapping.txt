@@ -1,0 +1,12 @@
+p/p/BuildConfig.java
+ p.p.BuildConfig
+p/p/MainActivity.java
+ p.p.MainActivity
+ p.p.MainActivity$1
+ p.p.MainActivity$DealingWithServerTask
+p/p/MapFragment.java
+ p.p.MapFragment
+ p.p.MapFragment$1
+ p.p.MapFragment$1$1
+p/p/MyOnMapReadyCallback.java
+ p.p.MyOnMapReadyCallback

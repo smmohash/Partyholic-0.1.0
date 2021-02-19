@@ -1,4 +1,4 @@
-#Thu Feb 18 22:05:55 CET 2021
+#Fri Feb 19 00:35:36 CET 2021
 base.0=D\:\\1\\uni\\8\\prax\\repo\\Partyholic (frontend)\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

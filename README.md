@@ -17,7 +17,8 @@ showing the project files, it will show you the structure of the project in the 
 The layout files under the directory "Partyholic (frontend)\app\src\main\res\layout" specify how the activities
 of the app look like. The .java files under "Partyholic (frontend)\app\src\main\java\p\p" have the functionality of the
 app.  
-##Installation
+
+## Installation
 - Install Android Studio
 - Configure Java in your Android Studio:
 >The project was made with the following setting:

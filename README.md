@@ -4,34 +4,6 @@ This is an Android app. It consists of two parts:
 The frontend (written in Java).
 The backend (the server) (written in Python).
  
-# Frontend
-Under the directory "Partyholic (frontend)"  
-
-Preview:  
-![Markdown Logo](https://i.postimg.cc/C1fThqTJ/7261343d-080e-48bd-b8e2-80a54d1c7216.jpg)
-## What it is
-This is the frontend of Partyholic. This is the part that the user gets the .apk file (you can find it in the repo, 
-named "Partyholic 0.1.0.apk) of.
-It is done using Android Studio. So, we recommend using it to check it out. Since Android Studio has its own way of 
-showing the project files, it will show you the structure of the project in the best way possible.
-The layout files under the directory "Partyholic (frontend)\app\src\main\res\layout" specify how the activities
-of the app look like. The .java files under "Partyholic (frontend)\app\src\main\java\p\p" have the functionality of the
-app.  
-
-## Installation
-- Install Android Studio
-- Configure Java in your Android Studio:
->The project was made with the following setting:
->
->java version "1.8.0_281"  
->Java(TM) SE Runtime Environment (build 1.8.0_281-b09)  
->Java HotSpot(TM) 64-Bit Server VM (build 25.281-b09, mixed mode)` 
-- [Get an API-key from Google.](https://developers.google.com/maps/documentation/embed/get-api-key "visit https://developers.google.com/maps/documentation/embed/get-api-key")
-- Open the file "local.properties" which is located in "Partyholic (frontend)"
-- Insert your API-key directly after "MAPS_API_KEY=" in the same line.
-- Insert your Java SDK directory directly after "sdk.dir=" in the same line.
-- Open the project.
-
 # Backend
 Under the directory "Partyholic (backend)"
 
@@ -79,3 +51,37 @@ git push heroku main
 
 ## Usages example (locally)
 ![Markdown Logo](https://i.postimg.cc/ZnPGNxMK/Screenshot-from-2021-02-18-21-21-51.png)
+
+
+
+# Frontend
+Under the directory "Partyholic (frontend)"  
+
+Preview:  
+![Markdown Logo](https://i.postimg.cc/C1fThqTJ/7261343d-080e-48bd-b8e2-80a54d1c7216.jpg)
+## What it is
+This is the frontend of Partyholic. This is the part that the user gets the .apk file (you can find it in the repo, 
+named "Partyholic 0.1.0.apk) of.
+It is done using Android Studio. So, we recommend using it to check it out. Since Android Studio has its own way of 
+showing the project files, it will show you the structure of the project in the best way possible.
+The layout files under the directory "Partyholic (frontend)\app\src\main\res\layout" specify how the activities
+of the app look like. The .java files under "Partyholic (frontend)\app\src\main\java\p\p" have the functionality of the
+app.  
+
+## Installation
+- **Use a physical Android device, to get best results.**
+- [Enable debugging mode on your Android device](https://developer.android.com/studio/debug/dev-options).
+- Install Android Studio
+- [Download Android SDK](https://developer.android.com/studio) and give its directory to Android Studio, as it will ask you for its location.
+- Configure Java in your Android Studio:
+>The project was made with the following setting:
+>
+>java version "1.8.0_281"  
+>Java(TM) SE Runtime Environment (build 1.8.0_281-b09)  
+>Java HotSpot(TM) 64-Bit Server VM (build 25.281-b09, mixed mode)` 
+- [Get an API-key from Google.](https://developers.google.com/maps/documentation/embed/get-api-key "visit https://developers.google.com/maps/documentation/embed/get-api-key")
+- Open the file "local.properties" which is located in "Partyholic (frontend)"
+- Insert your API-key directly after "MAPS_API_KEY=" in the same line.
+- Insert your Java SDK directory directly after "sdk.dir=" in the same line.
+- Open the project.
+
